@@ -429,6 +429,11 @@ body {
 	text-align: center;
 	
 }
+@media (max-width: 767px){
+	.navbar-default .navbar-nav .open .dropdown-menu>li>a {
+    color:white;
+	}
+}
 @media screen and (max-width: 576px) {
 	.top h3 {
     text-align: center;
@@ -439,9 +444,7 @@ body {
 		height: 15vh;
 		background-position: center;
 	}
-	.navbar-default .navbar-nav .open .dropdown-menu>li>ul>li>a {
-		color: white;
-	}
+
 	#about{
 		height: 125vh;
 	}
