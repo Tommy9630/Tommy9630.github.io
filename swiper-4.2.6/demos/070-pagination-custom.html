@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Swiper demo</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+
+  <!-- Link Swiper's CSS -->
+  <link rel="stylesheet" href="../dist/css/swiper.min.css">
+
+  <!-- Demo styles -->
+  <style>
+    html, body {
+      position: relative;
+      height: 100%;
+    }
+    body {
+      background: #eee;
+      font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+      font-size: 14px;
+      color:#000;
+      margin: 0;
+      padding: 0;
+    }
+    .swiper-container {
+      width: 100%;
+      height: 100%;
+    }
+    .swiper-slide {
+      width: 100%;
+      height: 100%;
+
+      /* Center slide text vertically */
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: -webkit-flex;
+      display: flex;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      -webkit-justify-content: center;
+      justify-content: center;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      -webkit-align-items: center;
+      align-items: center;
+    }
+    .swiper-slide .text{
+      margin:0 20px;
+      
+    }
+    .swiper-slide .text p{
+      font-size: 28px;
+      line-height: 40px;
+    }
+    .swiper-slide .text p b{
+      font-size: 36px;
+    }
+    .swiper-pagination-bullet {
+      width: 20px;
+      height: 20px;
+      text-align: center;
+      line-height: 20px;
+      font-size: 12px;
+      color:#000;
+      opacity: 1;
+      background: rgba(0,0,0,0.2);
+    }
+    .swiper-pagination-bullet-active {
+      color:#fff;
+      background: peru;
+    }
+  </style>
+</head>
+<body>
+  <!-- Swiper -->
+  <div class="swiper-container">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide">
+        <div class="pic1"><img src="../../information/03-photo/frame/mon/主畫面.png" alt="" width="541" height="800"></div>
+        <div class="text"><p><b>主畫面</b></p><p>以中央的以諾塔為中心，還有熾熱荒土（火）、神木森林（木）、寒霜冰川（水）、 聖光之城（光）、暗夜深淵（暗）、以及提供每日／每周任務的古神遺跡共7處場所，除了以諾塔與古神遺跡的怪物是不分屬性以外，其餘各處的怪物皆是固定屬性，如熾熱荒土清一色只會出現火屬性的怪物。</p></div>
+      </div>
+      <div class="swiper-slide">
+        <div class="pic2"><img src="../../information/03-photo/frame/mon/第八封印.jpg" alt="" width="541" height="800"></div>
+        <div class="text"><p><b>以諾塔(第八封印)</b></p><p></p></div>
+      </div>
+      <div class="swiper-slide">
+        <div class="pic3"><img src="../../information/03-photo/frame/mon/第九封印.JPG" alt="" width="541" height="800"></div>
+        <div class="text"><p><b>以諾塔(第九封印)</b></p><p></p></div>
+      </div>
+      <div class="swiper-slide">
+        <div class="pic4"><img src="../../information/03-photo/frame/mon/隊伍.jpg" alt="" width="541" height="800"></div>
+        <div class="text"><p><b>隊伍</b></p><p></p></div>
+      </div>
+      <div class="swiper-slide">
+        <div class="pic5"><img src="../../information/03-photo/frame/mon/背包.jpg" alt="" width="541" height="800"></div>
+        <div class="text"><p><b>背包</b></p><p></p></div>
+      </div>
+      <div class="swiper-slide">
+        <div class="pic6"><img src="../../information/03-photo/frame/mon/商店.jpg" alt="" width="541" height="800"></div>
+        <div class="text"><p><b>商店</b></p><p></p></div>
+      </div>
+      <div class="swiper-slide">
+        <div class="pic7"><img src="../../information/03-photo/frame/mon/社群.jpg" alt="" width="541" height="800"></div>
+        <div class="text"><p><b>社群</b></p><p></p></div>
+      </div>
+      <div class="swiper-slide">
+        <div class="pic8"><img src="../../information/03-photo/frame/mon/設定(上).jpg" alt="" width="541" height="800"></div>
+        <div class="text"><p><b>設定(上)</b></p><p></p></div>
+      </div>
+      <div class="swiper-slide">
+        <div class="pic9"><img src="../../information/03-photo/frame/mon/設定(下).jpg" alt="" width="541" height="800"></div>
+        <div class="text"><p><b>設定(下)</b></p><p></p></div>
+      </div>
+      <div class="swiper-slide">
+        <div class="pic10"><img src="../../information/03-photo/frame/mon/戰鬥.jpg" alt="" width="541" height="800"></div>
+        <div class="text"><p><b>戰鬥畫面</b></p><p></p></div>
+      </div>
+    </div>
+    <!-- Add Pagination -->
+    <div class="swiper-pagination"></div>
+  </div>
+
+  <!-- Swiper JS -->
+  <script src="../dist/js/swiper.min.js"></script>
+
+  <!-- Initialize Swiper -->
+  <script>
+    var swiper = new Swiper('.swiper-container', {
+      pagination: {
+        el: '.swiper-pagination',
+        clickable: true,
+        renderBullet: function (index, className) {
+          return '<span class="' + className + '">' + (index + 1) + '</span>';
+        },
+      },
+    });
+  </script>
+</body>
+</html>
