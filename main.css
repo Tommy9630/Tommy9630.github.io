@@ -439,7 +439,7 @@ body {
 		height: 15vh;
 		background-position: center;
 	}
-	.navbar-default .navbar-nav .open .dropdown-menu>li>a {
+	.navbar-default .navbar-nav .open .dropdown-menu>li>ul>li>a {
 		color: white;
 	}
 	#about{
