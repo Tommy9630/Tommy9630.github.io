@@ -16,11 +16,11 @@ body {
 	margin-bottom: 0;
 }
 .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
-    color: #555;
+    color: white;
     background-color: transparent;
 }
 .navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus, .navbar-default .navbar-nav>.open>a:hover {
-    color: #555;
+    color:white;
     background-color: transparent;
 }
 .dropdown-menu {
@@ -44,6 +44,7 @@ body {
 .navbar-header ul>li>ul>li a{
 	margin-left: 0;
 	text-align: center;
+	color: white;
 }
 .top {
     height: 100vh;
