@@ -438,7 +438,9 @@ body {
 		height: 15vh;
 		background-position: center;
 	}
-	
+	.dropdown-menu  li a{
+		color: white;
+	}
 	#about{
 		height: 125vh;
 	}
