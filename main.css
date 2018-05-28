@@ -429,7 +429,7 @@ body {
 	text-align: center;
 	
 }
-@media (max-width: 767px){
+@media screen and(max-width: 767px){
 	.navbar-default .navbar-nav .open .dropdown-menu>li>a {
     color:white;
 	}
