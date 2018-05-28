@@ -438,9 +438,7 @@ body {
 		height: 15vh;
 		background-position: center;
 	}
-	.navbar-header ul li a{
-		margin-left: 10px;
-	}
+	
 	#about{
 		height: 125vh;
 	}
