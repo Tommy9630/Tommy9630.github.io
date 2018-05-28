@@ -1,0 +1,463 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1, maximum-scale=1">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title></title>
+	
+	<link rel="stylesheet" href="swiper-4.2.6/dist/css/swiper.min.css">
+
+	<!-- Bootstrap core CSS -->
+    <link href="bootstrap-3.3.7/docs/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <link href="bootstrap-3.3.7/docs/assets/css/ie10-viewport-bug-workaround.css" rel="stylesheet">
+
+    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
+    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+    <script src="bootstrap-3.3.7/docs/assets/js/ie-emulation-modes-warning.js"></script>
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+		<![endif]-->
+			<link rel="stylesheet" href="main.css">
+</head>
+<body>
+	<button onclick="topFunction()" id="myBtn" title="Go to top">
+		<div class="tre"></div>
+	</button>
+	<nav class="navbar navbar-default navbar-static-top" style="background-color: darkgoldenrod;">
+		<div class="container"  >
+			<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar" style="float: left;">
+			  <span class="sr-only">Toggle navigation</span>
+			  <span class="icon-bar"></span>
+			  <span class="icon-bar"></span>
+			  <span class="icon-bar"></span>
+			</button>
+			
+		  </div>
+		  <div class="navbar-header" >
+			<div id="navbar" class="navbar-collapse collapse"  >
+			<ul class="nav navbar-nav" >
+			  <li class="active"><a href="#"class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"style="color:white;">關於神魔<span class="caret"></span></a>
+				<ul class="dropdown-menu"style="background-color: goldenrod;">
+				  <li><a href="#about">遊戲概況</a></li>
+				  <li><a href="#frame">遊戲介面</a></li>
+				  <li><a href="#play">遊戲玩法</a></li>
+				  
+				</ul>
+			  </li>
+			  
+			  <li><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"style="color:white;">神魔故事<span class="caret"></span></a>
+				<ul class="dropdown-menu"style="background-color: goldenrod;">
+				  <li><a href="#story">以諾塔</a></li>
+				  <li><a href="#character">角色介紹</a></li>
+				  
+				</ul>
+			  </li>
+			  
+			  <li class="dropdown">
+				<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"style="color:white;">影音專區<span class="caret"></span></a>
+				<ul class="dropdown-menu"style="background-color: goldenrod;">
+				  <li><a href="#studio">電玩活動</a></li>
+				  <li><a href="#adv">藝人代言</a></li>
+				  
+				</ul>
+				<li><a href="#download"style="color:white;">下載專區</a></li>
+			  </li>
+			</ul>
+			
+		  </div><!--/.nav-collapse -->
+		</div>
+	  </nav>
+  
+	<div class="top">
+	
+		<div class="main">
+			<div class="block"></div>
+			<h3 style="color: black;"></b>獻給每一位正為未來而戰的勇士！</b></h3>
+		</div>
+	</div>
+
+	<div id="about">
+		<div class="main">
+			<h2 class="select">關於神魔</h2>
+			<div class="block">
+				<div class="pic1"></div>
+				<div class="text">
+					<h3 id="tel">遊戲概要</h3>
+					<p>《神魔之塔》（英語：Tower of Saviors）是由香港手機遊戲公司Madhead開發出的一款轉珠遊戲，分為繁體中文及英文版兩個版本。
+					</p>
+					<br>
+					<p>繁體中文和英文版本同步更新，大陸簡體版本是由騰訊遊戲代理營運，但目前大陸版已經停止營運。曾於2013、2015、2016及2017年獲「巴哈姆特遊戲大賞」人氣手機暨平板遊戲金獎，2014年被估值為26億港幣，2017年創下歷屆最高票數紀錄。
+					</p>
+					<br>
+					<p>《神魔之塔》以世界各地的神話、傳奇、童話作為卡片的參考範本。從遊戲中關卡故事、潛能解放故事、昇華故事及卡片故事等，可見出不同召喚獸互相關連，亦為遊戲演化推進的一大關鍵。
+					</p>
+				</div>
+			</div>
+		</div>
+	</div>
+	<br>
+	<div id="frame">
+		<div class="main">
+			<h3>遊戲介面</h3>
+			<div class="block">
+					<div class="swiper-container">
+				<div class="swiper-wrapper">
+					<div class="swiper-slide">
+					  <div class="pic1"><img src="information/03-photo/frame/mon/主畫面.png" alt="" width="255" height="400"></div>
+					  <div class="text"><p><b>主畫面</b></p><p>以中央的以諾塔為中心，還有熾熱荒土（火）、神木森林（木）、寒霜冰川（水）、 聖光之城（光）、暗夜深淵（暗）、以及提供每日／每周任務的古神遺跡共7處場所，除了以諾塔與古神遺跡的怪物是不分屬性以外，其餘各處的怪物皆是固定屬性，如熾熱荒土清一色只會出現火屬性的怪物。</p></div>
+					</div>
+					<div class="swiper-slide">
+					  <div class="pic2"><img src="information/03-photo/frame/mon/第八封印.jpg" alt="" width="255" height="400"></div>
+					  <div class="text"><p><b><p>以諾塔(第八封印)</b></p><p>通過法則女神的考驗後，便可藉由天梯通往天神的世界，當中有天門長廊、淨水幻泉、星雲神壇、嗜血淵獄、迷鎖門廊、聖城尼比魯和虛影世界。裡面關卡的故事都在述說天神的過去，不像個陸地都是清一色的怪物。</p></div>
+					</div>
+					<div class="swiper-slide">
+					  <div class="pic3"><img src="information/03-photo/frame/mon/第九封印.JPG" alt="" width="255" height="400"></div>
+					  <div class="text"><p><b>以諾塔(第九封印)</b></p><p>到達天界的聖城後，便可進入渾沌空間，其中有空幻大堂、聖殿傳送陣和神域大殿，其中以渾沌原始神卡厄斯為混沌之主。</p></div>
+					</div>
+					<div class="swiper-slide">
+					  <div class="pic4"><img src="information/03-photo/frame/mon/隊伍.jpg" alt="" width="255" height="400"></div>
+						<div class="text"><p><b>隊伍</b></p><p>在組成隊伍的時候，如果不想要現在的組合，可以按下此按鈕，隊員會清除，即可重新安排新隊伍。隊伍的數量，最多可以安排五隊，但一次上場只能"一隊"。可以依自己喜好去設定幾個比較常用的隊伍，隨時方便切換。［等級１：１個隊伍、等級１０：２個隊伍、等級２０：３個隊伍、等級３０：４個隊伍、等級４０：５個隊伍...依此類推。</p>
+						<br>
+							<p>第一個位置，是隊長的位置，隊長技在下方。［選擇隊長，最好優先選擇可以讓整個隊伍都能配合隊長技，舉個例子，假如我今天是黑狗當隊長！他的技能是"獸類２.５倍攻擊"，我把隊員都選擇:人類或著其他種族［非獸類］，那是沒辦法增加攻擊］；編輯隊伍，點進去！可以一次選５個隊員，第一個則是(Ｌｅａｄｅｒ)隊長！</p>
+						</div>
+					</div>
+					<div class="swiper-slide">
+					  <div class="pic5"><img src="information/03-photo/frame/mon/背包.jpg" alt="" width="255" height="400"></div>
+					  <div class="text"><p><b>背包</b></p><p>分類選項：可以依照個人喜好去調整，可以稍微試試看，排版會不一樣喔　^_^!
+							代表: 會出現在左上角第一個位置，當切換分類選項，依然不變喔!!
+							我的最愛:可以把魔法石抽到的卡片，加入到『我的最愛』就不會把重要卡片給強化或售出了。
+							屬性:可以直接透過，左上角識別 卡片的屬性。右上方的框框為[背包現有卡片數量/背包最大容量]</p>
+							<br>
+							<p>［藍色兩條水：水、紅色三條：火、綠色四片葉子：木、黃色十字：光、紫色月亮：暗］
+							［水剋火、火剋木、木剋水］、［光暗相剋］</p>　
+					<br>
+							<p>EX:［ 自己的水屬卡攻擊火屬性的怪物，攻擊:10000。但因為水剋火，所以乘上1.5倍 = 15000；
+							但火屬卡攻擊水屬性的怪物，攻擊力一樣10000。但被反剋，攻擊力必須 減半 = 5000 ! ］<p></p></div>
+					</div>
+					<div class="swiper-slide">
+					  <div class="pic6"><img src="information/03-photo/frame/mon/商店.jpg" alt="" width="255" height="400"></div>
+					  <div class="text"><p><b>商店</b></p><p>神魔的商店並沒有販售所謂的『卡片』，只有『魔法石』。購買魔法石，可以自行運用在:擴充背包、增加好友、復活接關、抽卡片、回復體力</p></div>
+					</div>
+					<div class="swiper-slide">
+					  <div class="pic7"><img src="information/03-photo/frame/mon/社群.jpg" alt="" width="255" height="400"></div>
+					  <div class="text"><p><b>社群</b></p><p>可以拓展自己的社交圈，通常以公會和朋友為主。但有時候會透過社群介面進入討伐戰、競技場、多人遊玩...等。另外，可以藉由社群當中的獎賞領取獎勵。</p></div>
+					</div>
+					<div class="swiper-slide">
+					  <div class="pic8"><img src="information/03-photo/frame/mon/設定(上).jpg" alt="" width="255" height="400"></div>
+						<div class="text"><p><b>設定(上)</b></p><p>在遊戲大廳，右上角有兩顆［齒輪］，點進去後會看到此畫面。</p>
+						<br>
+						<p>遊戲公告：主要是官方提供的『活動資訊』，『每日緊急靈魂時任務的時間』，『登入天數』，還有你『幫助過多少朋友或冒險者［不認識的］，『封印卡加倍活動』
+							，『特別任務』［ＥＸ：每週任務和本週任務］；設定：可以調整『音量』、『音效』、『技能確認』、『提示通知』、『發佈到社交網路』；綁定帳戶：可透過臉書、推特和微博　等三種平台綁定帳戶，可透過社交平台，從別的手機或電腦登入自己的帳號。［已綁定］的話，不會再出現此選項！</p>
+						</div>
+					</div>
+					<div class="swiper-slide">
+					  <div class="pic9"><img src="information/03-photo/frame/mon/設定(下).jpg" alt="" width="255" height="400"></div>
+					  <div class="text"><p><b>設定(下)</b></p><p>繼續介紹設定，排行榜：可查閱每週任務"高級＆超級"的人，自己必須要『成功』通關，才能參考別人的『完整』隊伍，不然頂多看到回合數和傷害。更改名字：大廳左上角的名字，可由這裡更改，沒有限次數。聯絡我們:透過此功能，可傳遞訊息到客服中心，包含申訴和Q&A都可以，但由於遊戲公司在香港，所以盡量減少使用會比較好。</p></div>
+					</div>
+					<div class="swiper-slide">
+					  <div class="pic10"><img src="information/03-photo/frame/mon/戰鬥.jpg" alt="" width="255" height="400"></div>
+					  <div class="text"><p><b>戰鬥畫面</b></p><p>介面上會顯示玩家現時在該次挑戰中獲得的封印卡和金幣的總和，寶箱圖案為封印卡，另外的金幣圖案則是金幣總和。殺死每個回合出現的怪物有機會獲得封印卡或是獲得金幣。敵人頭上顯示「CD 1」表示怪物距離攻擊還有1回合；如果敵人出現骷髏骨標示，代表他再次攻擊將會令你死亡；當中會有敵人的血條和敵人的顏色，顏色象徵敵人的屬性。隊伍中的召喚獸會以頭像顯示，頭像的左上方的顏色和屬性圖案顯示召喚獸的屬性，當召喚獸自身的主動技能冷卻完成後，會有光圍繞召喚獸頭像的邊界移動，此時點擊頭像可以發動技能。
+							　　</p>
+							<br>
+							
+							<p>戰鬥當中固定出現的消除符文石介面，只要成功消除符文石，除了可以對敵方怪物造成傷害，還有機會生成發光的強化符石，把強化符石消除時可以再讓攻擊力提高。隊伍下方粉紅色的線條是玩家的生命力，如果生命力達到0時，代表死亡而戰鬥結束。</p></div>
+					</div>
+				</div>
+				  <!-- Add Pagination -->
+				  <div class="swiper-pagination"></div>
+			</div>
+			</div>
+		</div>
+	</div>
+	<br>
+	<div id="play">
+		<div class="main">
+			<h3>遊戲玩法</h3>
+			<iframe width="826.2" height="550.8" src="https://www.youtube.com/embed/QDxak4SIqYs" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+		</div>
+	</div>
+	<br>
+	<div id="story">
+		<div class="main">
+			<h2 class="select">神魔故事</h2>
+				<div class="block">
+					<div class="pic3"></div>
+					<div class="text">
+						<h3 id="tow">以諾塔</h3>
+						
+						<p>「古人類為了成為神而建造了一座能通向天界的巨塔 - 以諾塔。然而，在建塔的過程中，惡魔欲利用以諾塔入侵天界，人魔神三方的戰爭在塔中爆發，三方死傷無數……數千年後，留落人界的神魔發動了戰爭，為了阻止人類的滅亡，人們將最後的希望寄予僅存的召喚師身上，重新進入以諾塔解開塔的封印﹒……」</p>
+						<br>
+						<p>塔下周圍的陸地裂開成四塊，分別是【寒霜冰川】、【熾熱荒土】、【神木森林】及【聖光之城】。在大陸分成四大塊之時，熾熱荒土和神木森林中間的海域出現一個深不見底的漩渦，從裡面發出許多令人發冷的慘叫聲及怨念，而這個漩渦便成了魔界和人間界相連的通道，古人類們稱這個漩渦為【暗夜深淵】。</p>
+					</div>
+				</div>
+		</div>
+	</div>
+	<br>
+	<div id="character">
+		
+		<div class="main">
+			<h3>角色介紹</h3>
+			<div class="btn1">
+				<div href="" class="bt1" style="text-decoration: none;"><b>主角</b></div>	
+			</div>
+			<div class="block1">
+				<div class="swiper-container">
+					<div class="swiper-wrapper">
+						<div class="swiper-slide">
+							<div class="pic1">
+								<img src="information/03-photo/top/莫莉.png" width="500" height="381" alt="">
+							</div>
+							<div class="text">
+								<p><b>莫莉</b></p><p>出生於安穩之地，可是戰亂不斷擴大，莫莉的父母決定將她送到研究元素魔法的秘密學舍，由古怪的巫師傳授魔導之術。她以豐富的知識協助友人，並以水元素來守護士兵們，被眾人賦予“賢者”的稱號。</p>
+							</div>
+						</div>
+						<div class="swiper-slide">
+						<div class="pic2"><img src="information/03-photo/top/肖恩.jpg" width="500" height="381" alt=""></div>
+						<div class="text">
+							<p><b>肖恩</b></p><p>自幼在傭兵團成長，由粗豪的戰士所養大。在法師同伴的幫助下，肖恩得到了龍焰之力，但這並不為了復仇——他與同伴一起，為終止戰爭而揮劍。</p>
+						</div>
+					</div>
+						<div class="swiper-slide">
+								<div class="pic3"><img src="information/03-photo/top/鄧肯.png" width="500" height="381" alt=""></div>
+								<div class="text">
+										<p><b>鄧肯</b></p><p>戰亂時出生，由森林的德魯依養大。長老曾向他說：“鄧肯，想想生命是從何而來的，它從何誕生，並長成什麽……要了解殺戮造成的真正損害。”鄧肯貫徹他的誓言，他的靈與元素一起，竭力維持著自然，並幫助每一位決心抑止混亂的人。</p>
+								</div>
+						</div>
+						<div class="swiper-slide">
+								<div class="pic4"><img src="information/03-photo/top/奈寶尼.png" width="500" height="381" alt=""></div>
+								<div class="text">
+										<p><b>奈寶尼</b></p><p>在戰亂中出生的奈寶尼於騎士之國長大，自少就活在盔甲的華光下——高雅皇宮當中的一切都照耀出榮光。他一直憧憬能成為領軍，在聖光的指引下拯救大眾。銀鎧的天使指引他的靈魂，讓奈寶尼寄宿在符石裏，以領導未來的登塔者前進。</p>
+								</div>
+						</div>
+						<div class="swiper-slide">
+							<div class="pic5"><img src="information/03-photo/top/安多.png" width="500" height="381" alt=""></div>
+						<div class="text">
+								<p><b>安多</b></p><p>孩提時，安多作為祭品被送到暗夜深淵：魔神們將孩子的思緒掏空，讓他們成為忠實的從仆。茫然中，安多看見灰鎧的天使站在神界的門前，她看見亡靈正在等侯；安多從沒有忘記誓言，她飛進暗元素的懷中，與符石的力量一起，等待那位能終結混亂的人。</p>
+						</div>
+					</div>
+					</div>
+					<!-- Add Pagination -->
+					<div class="swiper-pagination"></div>
+				</div>
+			</div>
+			<div class="btn3">
+				<div class="bt1" style="text-decoration: none;"><b>封印之神(以諾塔)</b></div>
+			</div>
+			<div class="block2">
+					<div class="swiper-container">
+							<div class="swiper-wrapper">
+								<div class="swiper-slide">
+									<div class="pic1">
+										<img src="information/03-photo/tower/雙體共生●噬日狼.png" width="300" height="381" alt="">
+									</div>
+									<div class="text">
+										<p><b>雙體共生●噬日狼</b></p><br><p>斯庫爾（Sköll、Skoll），北歐神話中追逐太陽的狼，名字的意思是「嫌忌」。</p>
+									</div>
+								</div>
+								<div class="swiper-slide">
+								<div class="pic2"><img src="information/03-photo/tower/雙體共生●喰月狼.png" width="300" height="381" alt=""></div>
+								<div class="text">
+									<p><b>雙體共生●喰月狼</b></p><p>哈提（Hati）北歐神話中追逐月亮，名字的意思是「憎恨」。</p></div>
+							</div>
+								<div class="swiper-slide">
+										<div class="pic3"><img src="information/03-photo/tower/碑文騎士●奧丁.png" width="500" height="381" alt=""></div>
+										<div class="text">
+											<p><b>碑紋騎士●奧丁</b></p><p>阿薩神族（Aesir）的主神，傳說為五十歲左右，身材高大，失去一目，頭戴寬邊帽，冰冷又嚴肅的人物。
+													右手持「奧丁之火」和左手持「永恆之槍」（Gungnir）的奧丁，也是「風暴之神」、「矛主」。日耳曼人相信，奧丁會領著亡靈在天風飛翔，所以暴風就是奧丁帶來的死亡之風。而當奧丁揮舞手中的槍時，在人們眼裡看到的就是閃電。</p>
+										</div>
+								</div>
+								<div class="swiper-slide">
+										<div class="pic4"><img src="information/03-photo/tower/元素操縱者●迪亞布羅.png" width="500" height="381" alt=""></div>
+										<div class="text"><p><b>元素操縱者●迪亞布羅</b></p><p>暗黑破壞神》系列中的主要敵人─恐懼之王迪亞布羅，一直都是遊戲中最重要的反派角色。長久以來由於《暗黑破壞神》的遊戲受到廣大的歡迎，迪亞布羅（Diablo）是個魔王的印象也深植於我們遊戲玩家的心中。古希臘語為「Diabolos」，指的是一種特殊類別的惡魔。</p>
+										</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="pic5"><img src="information/03-photo/tower/雖死猶在●毒龍尼德霍格.png" width="500" height="381" alt=""></div>
+								<div class="text">
+									<p><b>雖死猶在●毒龍尼德霍格</b></p><p>在北歐神話中，是一隻盤據在世界之樹（Yggdrasil）的底部，不斷啃蝕著其根部的一條毒龍。名字的意思有「恐怖啃蝕者」（The Dread Biter）、「惡意」（Malice Striker）。</p>
+								</div>
+							</div>
+								<div class="swiper-slide">
+									<div class="pic6"><img src="information/03-photo/tower/萬魔之王●薩魯曼.png" width="500" height="381" alt=""></div>
+									<div class="text"><p><b>萬魔之王●薩魯曼</b></p><p>他是最廣為人知的邁雅之一，在第三紀元他以埃斯塔力（巫師）的身分暗助反抗索倫的中土勢力，但後來受到索倫引誘而墮落；在中土大陸各地，不同的種族對他有不同的稱呼，薩魯曼是北方人對他的稱呼。</p>
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="pic7"><img src="information/03-photo/tower/米迦勒 ● 路西法.png" width="500" height="381" alt=""></div>
+									<div class="text">
+										<p><b>米迦勒●路西法</b></p><p>米迦勒或彌額爾是在《聖經》提到的一個天使的名字，神所指定的伊甸園守護者，也是唯一提到的具有天使長頭銜的靈體。米迦勒這個名字的意思是「誰似天主」。《聖經》的記載顯示，與撒旦的七日戰爭中，米迦勒奮力維護天主的統治權，對抗天主的仇敵，的確名實相符。</p>
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="pic8"><img src="information/03-photo/tower/法則女神●姬氏.png" width="500" height="381" alt=""></div>
+									<div class="text">
+										<p><b>法則女神●姬氏</b></p><p>瀨織津姬神（日語：セオリツヒメノカミ）為日本神道的神祇，《記紀》二書並無記載，但《延喜式》大祓詞則記成瀨織津比咩，另有瀨織津媛神、瀨織津比賣神等別名。</p>
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="pic9"><img src="information/03-photo/tower/虛構建構者●猶格索托斯.png" width="500" height="381" alt=""></div>
+									<div class="text">
+										<p><b>虛構建構者●猶格索托斯</b></p><p>別名又叫「門之鑰」或「一生萬物、萬物歸一者」，在奧古斯特·威廉·德雷斯為克蘇魯神話構建的體系中，猶格·索托斯是舊日支配者中象徵「地」的存在之一。</p>
+											
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="pic10"><img src="information/03-photo/tower/渾天原始神卡俄斯.png" width="500" height="381" alt=""></div>
+									<div class="text">
+										<p><b>渾天原始神卡俄斯</b></p><p>希臘語：Χάος，英語：Chaos，字面意思是「裂縫」或「打哈欠」，即「混沌」的音譯，是希臘神話中的概念，沒有形體，也沒有明確的性別，它是一切空間及概念的開始，最早由赫西俄德在《神譜》中提到。</p>
+									</div>
+								</div>
+							</div>
+							<!-- Add Pagination -->
+							<div class="swiper-pagination"></div>
+				</div>
+			</div>
+			<div class="btn4">
+				<div class="bt1" style="text-decoration: none;"><b>埃及神(五大領地)</b></div>	
+			</div>
+			<div class="block3">
+					<div class="swiper-container">
+							<div class="swiper-wrapper">
+								<div class="swiper-slide">
+									<div class="pic1">
+										<img src="information/03-photo/ep/天律雨神●泰芙努特.png" width="450" height="285" alt="">
+									</div>
+									<div class="text">
+										<p><b>天律雨神●泰芙努特</b></p><p>泰芙努特（Tefnut）是埃及神話中的雨水之神，生育之神，九柱神之一。</p>
+									</div>
+								</div>
+								<div class="swiper-slide">
+								<div class="pic2"><img src="information/03-photo/ep/公允戰神●賽特.png" width="450" height="285" alt=""></div>
+								<div class="text">
+										<p><b>公允戰神●賽特</b></p><p>在埃及神話中最初是力量之神，戰神，風暴之神，沙漠之神以及外陸之神。</p>
+								</div>
+							</div>
+								<div class="swiper-slide">
+										<div class="pic3"><img src="information/03-photo/ep/颶風龍神●舒.png" width="450" height="285" alt=""></div>
+										<div class="text">
+												<p><b>颶風龍神●舒</b></p><p>埃及神話中的大氣之神、空氣之神、天空的化身，屬赫里奧坡里斯（Heliopolis）九柱神之一。其名字有「乾旱、烤乾、枯竭」意思。</p>
+										</div>
+								</div>
+								<div class="swiper-slide">
+										<div class="pic4"><img src="information/03-photo/ep/公義太陽神●拉.png" width="450" height="285" alt=""></div>
+										<div class="text">
+												<p><b>公義太陽神●拉</b></p><p>古埃及赫利奧波利斯（Heliopolis）的太陽神。從第五王朝開始，他被與底比斯神阿蒙結合在一起，成為埃及神系中最重要的神。</p>
+										</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="pic5"><img src="information/03-photo/ep/冥界審判者●奧西利斯.png" width="450" height="285" alt=""></div>
+								<div class="text">
+										<p><b>冥界審判者●奧西利斯</b></p><p>埃及神話中的冥王，九柱神之一，是古埃及最重要的神祇之一。
+												他是一位反覆重生的神，而他身上的綠色皮膚就有這種意思。</p>
+								</div>
+							</div>
+					
+							</div>
+							<!-- Add Pagination -->
+							<div class="swiper-pagination"></div>
+						</div>
+			</div>
+		</div>
+	</div>
+	<div id="studio">
+		<div class="main">
+			<h2 class="select">影音專區</h2>
+			<h3 id="game">電玩活動</h3>
+			<iframe width="273" height="205" src="https://www.youtube.com/embed/O_lbY_oiF90" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+			<iframe width="273" height="205" src="https://www.youtube.com/embed/o4ZrmIVWYS0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+			<iframe width="273" height="205" src="https://www.youtube.com/embed/0hKYbUi5srM" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>	
+		</div>
+	</div>
+	<div id="adv">
+		<div class="main">
+			<h3 id="advment">藝人代言</h3>
+			<div class="block">
+				<div class="b1">
+					<div class="pic5"></div>
+					<div class="video1">
+						<iframe width="494" height="315" src="https://www.youtube.com/embed/ImQLvc4jv9g" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+					</div>
+				</div>
+				<div class="b2">
+					<div class="pic6"></div>
+					<div class="video2">
+						<iframe width="328" height="266" src="https://www.youtube.com/embed/xdX0Ej0tnyI" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div id="download">
+		<div class="main">
+			<h2 class="select">下載專區</h2>
+			<div class="block">
+				<div class="up">
+				</div>
+				<div class="down">
+					<a href="https://itunes.apple.com/tw/app/%E7%A5%9E%E9%AD%94%E4%B9%8B%E5%A1%94/id583798880?mt=8" class="load1"></a>
+					<a href="https://play.google.com/store/apps/details?id=com.madhead.tos.zh&hl=zh_TW" class="load2"></a>
+					<a href="http://www.tosapk.com/dl/" class="load3"></a>
+				</div>
+			</div>	
+		</div>
+	</div>
+	<div id="communities">
+		<div class="main">
+			<div class="block">
+				<a href="https://forum.gamer.com.tw/A.php?bsn=23805" class="s1"></a>
+				<a href="http://www.towerofsaviors.com/zh/" class="s2"></a>
+				<a href="https://www.facebook.com/tos.zh" class="s3" style="text-decoration: none;">
+					<p><b>神魔之塔</b></p>
+					<p><b>官方粉絲團</b></p>
+				</a>
+			</div>	
+		</div>
+	</div>
+	<script src="swiper-4.2.6/dist/js/swiper.min.js"></script>
+	<script>
+		var swiper = new Swiper('.swiper-container', {
+		  pagination: {
+			el: '.swiper-pagination',
+			clickable: true,
+			renderBullet: function (index, className) {
+			  return '<span class="' + className + '">' + (index + 1) + '</span>';
+			},
+		  },
+		});
+	  </script>
+	<script>
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        document.getElementById("myBtn").style.display = "block";
+    } else {
+        document.getElementById("myBtn").style.display = "none";
+    }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+}
+
+</script>
+
+<!-- Bootstrap core JavaScript
+================================================== -->
+<!-- Placed at the end of the document so the pages load faster -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src="bootstrap-3.3.7/docs/assets/js/vendor/jquery.min.js"><\/script>')</script>
+<script src="bootstrap-3.3.7/docs/dist/js/bootstrap.min.js"></script>
+<!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+<script src="bootstrap-3.3.7/docs/assets/js/ie10-viewport-bug-workaround.js"></script>
+</body>
+</html>
