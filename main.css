@@ -438,7 +438,7 @@ body {
 		height: 15vh;
 		background-position: center;
 	}
-	.dropdown-menu  li a{
+	.navbar-default .navbar-nav .open .dropdown-menu>li>a {
 		color: white;
 	}
 	#about{
