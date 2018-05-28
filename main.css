@@ -500,7 +500,7 @@ body {
 		height: 45vh;
 	}
 	#play .main iframe{
-		width: 430px;
+		width: 406px;
 		height: 350.8px;
 	}
 	#story{
@@ -568,10 +568,10 @@ body {
 		height: 285px;
 	}
 	#studio{
-		height: 135vh;
+		height: 140vh;
 	}
 	#studio .main iframe{
-		width: 430px;
+		width: 406px;
 		height: 341px;
 	}
 	#adv{
@@ -596,11 +596,11 @@ body {
 		margin-top:42%; 
 	}
 	#adv .main .block .b1 .video1 iframe{
-		width:430px ;
-		height:291px ;
+		width:406px ;
+		height:290px ;
 	}
 	#adv .main .block .b2 .video2 iframe{
-		width:430px ;
+		width:406px ;
 		height:291px ;
 	}
 	#download{
