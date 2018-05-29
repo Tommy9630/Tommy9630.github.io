@@ -500,7 +500,7 @@ body {
 		height: 45vh;
 	}
 	#play .main iframe{
-		width: 406px;
+		width: 424px;
 		height: 350.8px;
 	}
 	#story{
@@ -521,7 +521,7 @@ body {
 		height: 45%;
 	}
 	#character{
-		height: 230vh;
+		height: 240vh;
 	}
 	#character .btn1 .bt2,.btn1 .bt3{
 		display: none;
@@ -546,7 +546,7 @@ body {
 	}
 	#character .main .block2{
 		width:50vh;
-		height: 65vh;
+		height: 75vh;
 		flex-wrap: wrap;
 	}
 	#character .main .block3{
@@ -571,7 +571,7 @@ body {
 		height: 140vh;
 	}
 	#studio .main iframe{
-		width: 406px;
+		width: 424px;
 		height: 341px;
 	}
 	#adv{
@@ -596,11 +596,11 @@ body {
 		margin-top:42%; 
 	}
 	#adv .main .block .b1 .video1 iframe{
-		width:406px ;
+		width:424px ;
 		height:290px ;
 	}
 	#adv .main .block .b2 .video2 iframe{
-		width:406px ;
+		width:424px ;
 		height:291px ;
 	}
 	#download{
