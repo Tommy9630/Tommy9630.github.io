@@ -3,6 +3,8 @@
 }
 html{
 	scroll-behavior: smooth;
+	margin: 0;
+    padding: 0;
 }
 body {
     margin: 0;
@@ -190,7 +192,7 @@ body {
 
 }
 #story .main .select,#download .main .select{
-	width:90vh;
+	
 	height: 5vh;
 	background-color:white;
 }
@@ -431,11 +433,8 @@ body {
 	
 }
 
-@media screen and (max-width: 425px) {
+@media (max-width: 425px) {
 
-	.main{
-		margin: 0 auto;
-	}
 	.top h3 {
     text-align: center;
     font-size: 20px;
@@ -443,9 +442,7 @@ body {
 	.top .main .block{
 		width: 45vh;
 		height: 15vh;
-
 		background-size: 100% 100%
-		 
 	}
 	
 	.navbar-header ul li a {
