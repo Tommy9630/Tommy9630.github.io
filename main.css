@@ -456,11 +456,11 @@ body {
 		color:white;
 	}
 	#about{
-		height: 145vh;
+		height: 180vh;
 	}
 	#about .main .block{
-		width: 40vh;
-		height: 100vh;
+		width: 50vh;
+		height: 120vh;
 		flex-wrap: wrap;
 	}
 	#about .main .block .pic1{
@@ -477,38 +477,40 @@ body {
 
 	}
 	#frame{
-		height: 170vh;
+		height: 210vh;
 	}
 	#frame .main .block{
-		width: 40vh;
-		height: 160vh;
+		width: 50vh;
+		height: 200vh;
 		flex-wrap: wrap;
 		margin: 0;
 	}
 	.swiper-slide{
 		flex-flow: column;
 
+
 	}
+
 	.swiper-slide img{
-		width:280px; 
-		height:500px;
+		width:260px; 
+		height:400px;
 	}
 	.swiper-slide .text{
-		width: 100%;
+		width: 280px;
 	}
 	#play{
-		height: 50vh;
+		height: 65vh;
 	}
 	#play .main iframe{
-		max-width: 100%;
+		width: 320px;
 		height: 350.8px;
 	}
 	#story{
-		height: 145vh;
+		height: 180vh;
 	}
 	#story .main  .block{
-		width: 40vh;
-		height: 135vh;
+		width: 50vh;
+		height: 165vh;
 		flex-wrap: wrap;
 	}
 	#story .main  .block .pic3{
@@ -521,7 +523,7 @@ body {
 		height: 60%;
 	}
 	#character{
-		height: 245vh;
+		height: 260vh;
 	}
 	
 	.btn3 .bt1,.btn4 .bt1{
@@ -538,22 +540,22 @@ body {
 		margin-bottom: 5px;
 	}
 	#character .main .block1{
-		width:40vh;
-		height: 70vh;
+		width:50vh;
+		height: 80vh;
 		flex-wrap: wrap;
 	}
 	#character .main .block2{
-		width:40vh;
+		width:50vh;
 		height: 80vh;
 		flex-wrap: wrap;
 	}
 	#character .main .block3{
-		width:40vh;
+		width:50vh;
 		height: 65vh;
 		flex-wrap: wrap;
 	}
 	#character .main .block1 .swiper-container .swiper-slide img{
-		width: 280px;
+		width: 300px;
 		height: 225px;
 	}
 	#character .main .block2 .swiper-container .swiper-slide img{
@@ -566,18 +568,25 @@ body {
 	#character .main .block3 .swiper-container .swiper-slide img{
 		height: 280px;
 	}
+	#character .main .block1 .swiper-container .swiper-slide p{
+		width: 280px;
+	}
+	#character .main .block2 .swiper-container .swiper-slide p{
+
+	}
+	#character .main .block3 .swiper-container .swiper-slide p
 	#studio{
-		height: 140vh;
+		height: 185vh;
 	}
 	#studio .main iframe{
-		max-width: 100%;
+		width: 310px;
 		height: 341px;
 	}
 	#adv{
-		height: 130vh;
+		height: 140vh;
 	}
 	#adv .main .block{
-		width:40vh;
+		width:50vh;
 		height: 70vh;
 		flex-wrap: wrap;
 	}
@@ -587,27 +596,27 @@ body {
 	}
 	#adv .main .block .b1 .pic5{
 		width: 100%;
-		height: 60%;
+		height: 70%;
 	}
 	#adv .main .block .b2 .pic6{
 		width: 100%;
-		height: 80%;
+		height: 100%;
 		margin-top:42%; 
 	}
 	#adv .main .block .b1 .video1 iframe{
-		max-width:100%;
-		height:290px ;
+		width:310px;
+		height:180px ;
 	}
 	#adv .main .block .b2 .video2 iframe{
-		max-width:100%;
-		height:291px ;
+		width:310px;
+		height:180px ;
 	}
 	#download{
 		height: 100vh;
 	}
 	#download .main .block{
-		width: 40vh;
-		height: 85vh;
+		width: 50vh;
+		height: 90vh;
 		padding-top:0;
 		margin-top: 0; 
 	}
@@ -633,7 +642,7 @@ body {
 		height: 90vh;
 	}
 	#communities .main .block{
-		width: 40vh;
+		width: 50vh;
 		height: 80vh;
 		flex-wrap: wrap;
 	}
